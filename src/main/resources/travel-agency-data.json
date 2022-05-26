@@ -1,0 +1,105 @@
+
+[
+  {
+    "_class": "com.adobe.travelagency.entity.Person",
+    "id": 1,
+    "name": 10,
+    "birthday": "1970-10-20",
+    "person_role": "agent"
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Person",
+    "id": 2,
+    "name": 10,
+    "birthday": "19780-11-19",
+    "person_role": "customer",
+    "agent_id": 1
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Person",
+    "id": 3,
+    "name": 10,
+    "birthday": "1982-09-21",
+    "person_role": "customer",
+    "agent_id": 1
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Accommodation",
+    "id": 1,
+    "destination_id": "1",
+    "accommodation_type": "HOTEL",
+    "name": "Palm Resort",
+    "number_of_stars": 4,
+    "room_type": "SINGLE_SEA_VIEW"
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Accommodation",
+    "id": 2,
+    "destination_id": "1",
+    "accommodation_type": "HOTEL",
+    "name": "Shell Resort",
+    "number_of_stars": 5,
+    "has_pool": true,
+    "room_type": "DOUBLE_TWIN"
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Accommodation",
+    "id": 3,
+    "destination_id": "2",
+    "accommodation_type": "HOTEL",
+    "name": "Sand Resort",
+    "number_of_stars": 5,
+    "has_pool": true,
+    "room_type": "DOUBLE_TWIN"
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Destination",
+    "id": 1,
+    "country": "Egypt"
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.Destination",
+    "id": 2,
+    "country": "Greece"
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.HolidayOffer",
+    "id": 1,
+    "accommodation_id": 1,
+    "start_date": "2022-07-07",
+    "end_date": "2022-07-14",
+    "transportation_type": "PLANE",
+    "package_type": "ALL_INCLUSIVE",
+    "price": 550,
+    "advance_payment": 110,
+    "deadline_payment": "2022-06-07 00:00",
+    "available_offers": 10
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.HolidayOffer",
+    "id": 2,
+    "accommodation_id": 2,
+    "start_date": "2022-09-23",
+    "end_date": "2022-10-01",
+    "transportation_type": "PLANE",
+    "package_type": "BREAKFAST",
+    "price": 700,
+    "advance_payment": 200,
+    "deadline_payment": "2022-09-15 00:00",
+    "available_offers": 8
+  },
+  {
+    "_class": "com.adobe.travelagency.entity.HolidayOffer",
+    "id": 3,
+    "accommodation_id": 3,
+    "start-date": "2022-08-23",
+    "start-date": "2022-09-05",
+    "transportation_type": "PERSONAL_CAR",
+    "package_type": "NO_MEAL",
+    "price": 400,
+    "advance_payment": 100,
+    "deadline_payment": "2022-08-14 00:00",
+    "available_offers": 20
+  }
+
+]

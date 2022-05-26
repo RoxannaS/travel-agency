@@ -1,0 +1,5 @@
+package com.adobe.travelagency.domain;
+
+public enum RoomType {
+    SINGLE, SINGLE_SEA_VIEW, DOUBLE_TWIN, DOUBLE_MATRIMONIAL, DOUBLE_MATRIMONIAL_SEA_VIEW, DOUBLE_SUPERIOR, SUITE
+}
